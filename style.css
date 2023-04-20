@@ -1,0 +1,79 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:whitesmoke;
+}
+
+.nav-imagem {
+    position: fixed;
+    background-image: url("imagens/fundonav.jpeg") ;
+    background-size: cover;
+    background-position: center;
+    height: 13%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#voltainicio2{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.estbotao{
+    border:solid;
+    border-color: white;
+    border-radius: 10px;
+    background-color: white;
+    color: #02a4cd;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 100%;
+    margin-right: 10px;
+}
+
+.todosprodutos{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;  
+}
+
+.produtos{
+    height: 30%;
+    width: 30%;
+    padding: 1%;
+    border-radius: 2%;
+    text-align: center;
+    background-color:#1d4049;
+}  
+
+button{
+    border-style: solid;
+    border-color: white;
+    height: 4%; width: 30%;
+    color: #04b4ff;
+    background-color: white;
+    border-radius: 10%;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+.footer{
+    height: 20%;
+    margin-top: 2%;
+    background-color:#1d4049;
+    padding-bottom: 6%;
+    font-size: 15px;
+    color:white;
+    text-align: center;
+}
